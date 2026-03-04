@@ -1,0 +1,63 @@
+/*
+ * Theme Token Contract
+ * ====================
+ * Every theme file must implement ALL tokens listed below.
+ * Tokens use oklch components (L C H) for semantic tokens
+ * and HSL space-separated values for shadcn bridge tokens.
+ *
+ * Surfaces
+ * --------
+ * --surface-primary       Main content surface
+ * --surface-secondary     Secondary/grouped content surface
+ * --surface-elevated      Elevated elements (modals, dropdowns)
+ * --surface-overlay       Overlay backdrop
+ *
+ * Borders
+ * -------
+ * --border-default        Default border color
+ * --border-subtle         Subtle/divider border
+ * --border-strong         Emphasized border
+ *
+ * Text
+ * ----
+ * --text-primary          Primary body text
+ * --text-secondary        Secondary/supporting text
+ * --text-muted            De-emphasized text
+ * --text-inverse          Text on dark/light inverse surfaces
+ *
+ * Accents
+ * -------
+ * --accent-primary        Primary accent (links, highlights, brand)
+ * --accent-secondary      Secondary accent
+ *
+ * Shadows
+ * -------
+ * --shadow-sm             Small shadow
+ * --shadow-md             Medium shadow
+ * --shadow-lg             Large shadow
+ *
+ * shadcn Bridge Tokens (HSL space-separated values)
+ * -------------------------------------------------
+ * --background            Page background
+ * --foreground            Page foreground text
+ * --card                  Card background
+ * --card-foreground       Card text
+ * --popover               Popover background
+ * --popover-foreground    Popover text
+ * --primary               Primary button/action
+ * --primary-foreground    Primary button text
+ * --secondary             Secondary button/action
+ * --secondary-foreground  Secondary button text
+ * --muted                 Muted background
+ * --muted-foreground      Muted text
+ * --accent                Accent background
+ * --accent-foreground     Accent text
+ * --destructive           Destructive/error action
+ * --destructive-foreground Destructive action text
+ * --border                Default border
+ * --input                 Input border
+ * --ring                  Focus ring
+ * --radius                Border radius
+ * --chart-1 .. --chart-5  Chart palette
+ * --sidebar-*             Sidebar variants
+ */

@@ -1,0 +1,60 @@
+[data-theme="claude"] {
+  /* ── Claude terracotta on warm dark ── */
+
+  /* Semantic tokens (oklch L C H) */
+  --accent-primary: 0.65 0.14 55;
+  --accent-secondary: 0.6 0.1 30;
+
+  --surface-primary: 0.18 0.018 55;
+  --surface-secondary: 0.22 0.02 52;
+  --surface-elevated: 0.26 0.022 50;
+  --surface-overlay: 0.08 0.01 55;
+
+  --border-default: 0.3 0.025 52;
+  --border-subtle: 0.25 0.02 54;
+  --border-strong: 0.4 0.03 50;
+
+  --text-primary: 0.92 0.015 60;
+  --text-secondary: 0.72 0.018 58;
+  --text-muted: 0.52 0.015 55;
+  --text-inverse: 0.15 0.015 55;
+
+  --shadow-sm: 0 1px 3px oklch(0 0 0 / 0.35);
+  --shadow-md: 0 4px 10px oklch(0 0 0 / 0.4);
+  --shadow-lg: 0 12px 24px oklch(0 0 0 / 0.5);
+
+  /* shadcn bridge tokens (HSL) */
+  --background: 30 15% 10%;
+  --foreground: 35 22% 90%;
+  --card: 30 14% 14%;
+  --card-foreground: 35 22% 90%;
+  --popover: 30 15% 9%;
+  --popover-foreground: 35 22% 90%;
+  --primary: 28 70% 52%;
+  --primary-foreground: 35 40% 96%;
+  --secondary: 30 12% 22%;
+  --secondary-foreground: 35 18% 82%;
+  --muted: 30 10% 16%;
+  --muted-foreground: 32 14% 50%;
+  --accent: 30 10% 18%;
+  --accent-foreground: 35 22% 90%;
+  --destructive: 0 68% 52%;
+  --destructive-foreground: 35 40% 96%;
+  --border: 30 12% 22%;
+  --input: 30 12% 22%;
+  --ring: 28 70% 52%;
+  --radius: 0.75rem;
+  --chart-1: 28 70% 52%;
+  --chart-2: 14 55% 55%;
+  --chart-3: 45 50% 48%;
+  --chart-4: 350 45% 58%;
+  --chart-5: 55 40% 45%;
+  --sidebar-background: 30 15% 6%;
+  --sidebar-foreground: 32 14% 50%;
+  --sidebar-primary: 28 70% 48%;
+  --sidebar-primary-foreground: 35 40% 96%;
+  --sidebar-accent: 30 10% 12%;
+  --sidebar-accent-foreground: 35 22% 90%;
+  --sidebar-border: 30 12% 18%;
+  --sidebar-ring: 28 70% 48%;
+}

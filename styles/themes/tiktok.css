@@ -1,0 +1,60 @@
+[data-theme="tiktok"] {
+  /* ── TikTok neon cyan & rose on true black ── */
+
+  /* Semantic tokens (oklch L C H) */
+  --accent-primary: 0.7 0.18 195;
+  --accent-secondary: 0.65 0.2 350;
+
+  --surface-primary: 0.1 0.005 260;
+  --surface-secondary: 0.14 0.008 260;
+  --surface-elevated: 0.18 0.01 260;
+  --surface-overlay: 0.04 0.003 260;
+
+  --border-default: 0.25 0.008 260;
+  --border-subtle: 0.2 0.006 260;
+  --border-strong: 0.35 0.012 260;
+
+  --text-primary: 0.95 0.005 260;
+  --text-secondary: 0.72 0.008 260;
+  --text-muted: 0.48 0.008 260;
+  --text-inverse: 0.1 0.005 260;
+
+  --shadow-sm: 0 1px 3px oklch(0 0 0 / 0.4);
+  --shadow-md: 0 4px 10px oklch(0 0 0 / 0.5);
+  --shadow-lg: 0 12px 24px oklch(0.6 0.15 195 / 0.12);
+
+  /* shadcn bridge tokens (HSL) */
+  --background: 240 5% 4%;
+  --foreground: 0 0% 95%;
+  --card: 240 5% 8%;
+  --card-foreground: 0 0% 95%;
+  --popover: 240 5% 4%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 180 85% 55%;
+  --primary-foreground: 240 5% 4%;
+  --secondary: 240 5% 15%;
+  --secondary-foreground: 0 0% 85%;
+  --muted: 240 5% 12%;
+  --muted-foreground: 240 4% 48%;
+  --accent: 240 5% 14%;
+  --accent-foreground: 0 0% 95%;
+  --destructive: 345 82% 58%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 240 5% 16%;
+  --input: 240 5% 16%;
+  --ring: 180 85% 55%;
+  --radius: 0.5rem;
+  --chart-1: 180 85% 55%;
+  --chart-2: 345 82% 58%;
+  --chart-3: 270 60% 60%;
+  --chart-4: 60 70% 55%;
+  --chart-5: 130 50% 50%;
+  --sidebar-background: 240 5% 2%;
+  --sidebar-foreground: 240 4% 48%;
+  --sidebar-primary: 180 85% 50%;
+  --sidebar-primary-foreground: 240 5% 4%;
+  --sidebar-accent: 240 5% 8%;
+  --sidebar-accent-foreground: 0 0% 95%;
+  --sidebar-border: 240 5% 12%;
+  --sidebar-ring: 180 85% 50%;
+}

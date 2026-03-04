@@ -1,0 +1,60 @@
+[data-theme="reddit"] {
+  /* ── Reddit orange on clean white ── */
+
+  /* Semantic tokens (oklch L C H) */
+  --accent-primary: 0.62 0.22 45;
+  --accent-secondary: 0.55 0.1 250;
+
+  --surface-primary: 0.97 0.003 250;
+  --surface-secondary: 0.94 0.005 250;
+  --surface-elevated: 0.99 0.002 250;
+  --surface-overlay: 0.2 0.005 250;
+
+  --border-default: 0.88 0.008 250;
+  --border-subtle: 0.92 0.005 250;
+  --border-strong: 0.78 0.012 250;
+
+  --text-primary: 0.15 0.01 250;
+  --text-secondary: 0.38 0.008 250;
+  --text-muted: 0.55 0.008 250;
+  --text-inverse: 0.97 0.003 250;
+
+  --shadow-sm: 0 1px 3px oklch(0.3 0.005 250 / 0.06);
+  --shadow-md: 0 4px 10px oklch(0.3 0.005 250 / 0.09);
+  --shadow-lg: 0 12px 24px oklch(0.3 0.005 250 / 0.12);
+
+  /* shadcn bridge tokens (HSL) */
+  --background: 0 0% 96%;
+  --foreground: 220 10% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 10% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 10% 10%;
+  --primary: 24 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 6% 90%;
+  --secondary-foreground: 220 10% 16%;
+  --muted: 220 5% 93%;
+  --muted-foreground: 220 5% 42%;
+  --accent: 220 5% 92%;
+  --accent-foreground: 220 10% 10%;
+  --destructive: 0 75% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 220 5% 87%;
+  --input: 220 5% 87%;
+  --ring: 24 100% 50%;
+  --radius: 0.625rem;
+  --chart-1: 24 100% 50%;
+  --chart-2: 220 60% 50%;
+  --chart-3: 160 50% 42%;
+  --chart-4: 45 80% 48%;
+  --chart-5: 340 60% 50%;
+  --sidebar-background: 220 5% 94%;
+  --sidebar-foreground: 220 5% 40%;
+  --sidebar-primary: 24 100% 48%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 5% 91%;
+  --sidebar-accent-foreground: 220 10% 10%;
+  --sidebar-border: 220 5% 85%;
+  --sidebar-ring: 24 100% 48%;
+}

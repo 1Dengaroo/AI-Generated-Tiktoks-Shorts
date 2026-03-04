@@ -1,0 +1,60 @@
+[data-theme="dark"] {
+  /* ── Hot coral on warm darks ── */
+
+  /* Semantic tokens (oklch L C H) */
+  --accent-primary: 0.65 0.2 10;
+  --accent-secondary: 0.6 0.15 35;
+
+  --surface-primary: 0.14 0.015 20;
+  --surface-secondary: 0.17 0.02 18;
+  --surface-elevated: 0.21 0.022 16;
+  --surface-overlay: 0.06 0.01 20;
+
+  --border-default: 0.28 0.025 20;
+  --border-subtle: 0.22 0.02 22;
+  --border-strong: 0.38 0.035 15;
+
+  --text-primary: 0.93 0.015 30;
+  --text-secondary: 0.72 0.02 25;
+  --text-muted: 0.5 0.02 20;
+  --text-inverse: 0.12 0.015 20;
+
+  --shadow-sm: 0 1px 3px oklch(0 0 0 / 0.35);
+  --shadow-md: 0 4px 10px oklch(0 0 0 / 0.4);
+  --shadow-lg: 0 12px 24px oklch(0.5 0.1 10 / 0.15);
+
+  /* shadcn bridge tokens (HSL) */
+  --background: 15 12% 8%;
+  --foreground: 25 18% 92%;
+  --card: 14 12% 11%;
+  --card-foreground: 25 18% 92%;
+  --popover: 15 14% 7%;
+  --popover-foreground: 25 18% 92%;
+  --primary: 350 85% 60%;
+  --primary-foreground: 350 100% 97%;
+  --secondary: 15 15% 20%;
+  --secondary-foreground: 20 16% 85%;
+  --muted: 15 10% 14%;
+  --muted-foreground: 18 14% 50%;
+  --accent: 15 12% 16%;
+  --accent-foreground: 25 18% 92%;
+  --destructive: 0 80% 55%;
+  --destructive-foreground: 25 18% 96%;
+  --border: 15 14% 20%;
+  --input: 15 14% 20%;
+  --ring: 350 85% 60%;
+  --radius: 0.625rem;
+  --chart-1: 350 80% 56%;
+  --chart-2: 25 70% 55%;
+  --chart-3: 330 55% 55%;
+  --chart-4: 45 65% 55%;
+  --chart-5: 10 60% 50%;
+  --sidebar-background: 15 12% 5%;
+  --sidebar-foreground: 18 14% 50%;
+  --sidebar-primary: 350 85% 55%;
+  --sidebar-primary-foreground: 350 100% 97%;
+  --sidebar-accent: 15 12% 10%;
+  --sidebar-accent-foreground: 25 18% 92%;
+  --sidebar-border: 15 14% 16%;
+  --sidebar-ring: 350 85% 55%;
+}
