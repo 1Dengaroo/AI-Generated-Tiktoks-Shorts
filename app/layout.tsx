@@ -10,6 +10,7 @@ import {
 } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/lib/theme/theme-provider";
 import { DEFAULT_THEME } from "@/lib/theme/theme-registry";
 
@@ -86,6 +87,7 @@ export default function RootLayout({
           }}
         >
           <ThemeProvider>{children}</ThemeProvider>
+          <Analytics />
         </ClerkProvider>
       </body>
     </html>

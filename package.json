@@ -22,6 +22,7 @@
     "@remotion/lambda": "^4.0.432",
     "@remotion/player": "^4.0.432",
     "@remotion/renderer": "^4.0.432",
+    "@vercel/analytics": "^1.6.1",
     "axios": "^1.13.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
